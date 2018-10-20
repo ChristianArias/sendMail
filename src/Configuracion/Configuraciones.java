@@ -49,6 +49,12 @@ public final class Configuraciones extends javax.swing.JFrame {
 
         jPasswordField1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Contraseña", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP));
 
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
+
         jTextField2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Servidor SMTP", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP));
 
         jSpinner1.setModel(new javax.swing.SpinnerNumberModel(587, 0, null, 1));
@@ -136,6 +142,11 @@ public final class Configuraciones extends javax.swing.JFrame {
         sendmail.data.guardarConexion(tx, new File(_sistema.Ubicacion.path()+"data.conexion"));
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        if(jCheckBox1.isSelected()) jPasswordField1.setEchoChar((char) 0);
+        else jPasswordField1.setEchoChar('*');        
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments

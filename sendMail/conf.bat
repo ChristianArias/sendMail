@@ -1,0 +1,1 @@
+java -jar sendMail.jar "0"

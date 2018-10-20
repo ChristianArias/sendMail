@@ -1,0 +1,7 @@
+19-10-2018 01:47:07 p.m. Configuraciones actualizadas
+19-10-2018 01:47:43 p.m. Could not convert socket to TLS
+19-10-2018 01:48:18 p.m. Could not convert socket to TLS
+19-10-2018 01:51:09 p.m. Configuraciones actualizadas
+19-10-2018 01:51:35 p.m. Could not connect to SMTP host: smtp.mail.com, port: 465, response: -1
+19-10-2018 01:59:18 p.m. Could not connect to SMTP host: smtp.mail.com, port: 465, response: -1
+19-10-2018 04:35:28 p.m. Configuraciones actualizadas
